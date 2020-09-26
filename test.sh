@@ -20,6 +20,11 @@ assert 0 0
 assert 42 42
 assert 128 128
 
+assert 30 "5+10+15"
+assert 21 "0x5+0x10"
+assert 15 "20-10+5"
+assert 37 "0x20+8-3"
+
 echo OK
 
 		
